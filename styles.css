@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  font-family: "inter";
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: rgb(241, 254, 254);
+  line-height: 1.5;
+  letter-spacing: -0.16px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* HEADER */
+header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.header__conatiner {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  margin-right: auto;
+}
+
+/* NAVBAR */
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1c1a26;
+}
+
+.header__tell-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f9512e;
+  text-transform: uppercase;
+}
+
+.header__tell-icon {
+  margin-left: 64px;
+  margin-right: 32px;
+}
+
+.head__tell-img {
+  margin-right: 4px;
+}
+
+/* MAIN */
+.main {
+  padding-top: 135px;
+  padding-bottom: 349px;
+}
+
+.main {
+  background-image: url(./images/Cookie.png);
+  background-repeat: no-repeat;
+  background-position: center -20px;
+  background-size: 544px 546px;
+}
+/*HERO*/
+
+.hero {
+  margin-bottom: 144px;
+}
+
+.hero__text {
+  width: 260px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.16px;
+  padding-bottom: 8px;
+}
+
+.hero__title {
+  color: var(--Black, #1c1a26);
+  font-family: Inter;
+  font-size: 13.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85%;
+  letter-spacing: -6.8px;
+  text-transform: uppercase;
+  padding-bottom: 6.4rem;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+  max-width: 260px;
+  width: 100%;
+  color: #f9512e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 2px solid #f9512e;
+}
+
+.hero__button:hover {
+  opacity: 0.8;
+}
+
+.hero__button:active {
+  opacity: 0.6;
+}
+
+.hero__button img {
+  margin-right: 4px;
+}
+
+/*HERO END*/
+
+/*bake-info*/
+.bake-info {
+  margin-top: 150px;
+}
+
+.bake-info__title {
+  color: var(--Black, #1c1a26);
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85%; /* 61.2px */
+  letter-spacing: -3.6px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.bake-info__text {
+  color: var(--Black, #1c1a26);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+  margin-bottom: 80px;
+}
+
+.bake-info__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.bake-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.bake-info__item:nth-child(even) {
+  margin-left: auto;
+}
+
+.bake-info__item-wrapper:nth-child(odd) {
+  margin-right: 24px;
+}
+
+.bake-info__item-span {
+  color: var(--Grey, #7f8096);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.bake-info__item-img {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.bake-info__item-text {
+  width: 432px;
+  color: var(--Black, #1c1a26);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+  margin-bottom: 16px;
+}
+
+.bake-info__item-link {
+  display: flex;
+  align-items: center;
+}
+
+.bake-info__item-link img {
+  margin-right: 4px;
+}
+
+.bake-info__item-link p {
+  color: #f9512e;
+
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
