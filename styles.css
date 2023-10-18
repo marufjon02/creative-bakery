@@ -100,7 +100,6 @@ header {
 /* MAIN */
 .main {
   padding-top: 135px;
-  padding-bottom: 349px;
 }
 
 .main {
@@ -265,3 +264,144 @@ header {
   letter-spacing: 0.32px;
   text-transform: uppercase;
 }
+
+/*bake-info end*/
+
+/* here start*/
+
+.here {
+  background-image: url(./images/here.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 718px 673px;
+  margin-bottom: 144px;
+}
+
+.here__two {
+  display: flex;
+  gap: 24px;
+}
+
+.here__item {
+  width: 584px;
+  color: #1c1a26;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85%; /* 61.2px */
+  letter-spacing: -3.6px;
+  text-transform: uppercase;
+}
+
+.here__box {
+  display: flex;
+  align-items: center;
+  margin-top: 170px;
+  margin-bottom: 144px;
+}
+
+.here__text {
+  width: 584px;
+  color: #1c1a26;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+}
+
+.here__two-title {
+  width: 280px;
+  color: #1c1a26;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85%; /* 81.6px */
+  letter-spacing: -4.8px;
+  text-transform: uppercase;
+}
+
+.here__two-text {
+  width: 280px;
+  color: #7f8096;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+  margin-bottom: 390px;
+}
+/* here end*/
+
+/*footer start*/
+
+.footer {
+  background: var(--Black, #1c1a26);
+}
+
+.footer__hero {
+  padding-top: 8.8rem;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+  gap: 440px;
+  margin-bottom: 4rem;
+}
+
+.fotter__title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85%; /* 61.2px */
+  letter-spacing: -3.6px;
+  text-transform: uppercase;
+}
+
+.ul__menu {
+  display: flex;
+  gap: 320px;
+}
+
+.ul__menu-two {
+  display: flex;
+}
+
+.ul__title {
+  width: 280px;
+  color: #7f8096;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.ul__text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+  margin-bottom: 1.6rem;
+}
+
+.footer__div {
+  display: flex;
+  gap: 3.2rem;
+  padding-top: 3.2rem;
+  padding-bottom: 8.8rem;
+}
+/*footer end*/
