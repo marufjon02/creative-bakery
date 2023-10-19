@@ -73,6 +73,21 @@ header {
 }
 
 /* NAVBAR */
+
+.sitenavbar {
+  position: fixed;
+  top: 6.4rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+  /* background-color: #fff; */
+  padding: 25% 35%;
+  color: #1c1a26;
+  opacity: 1;
+}
 .navbar__list {
   display: flex;
   align-items: center;
@@ -528,6 +543,7 @@ header {
 .menu {
   display: none;
 }
+
 /*footer end*/
 
 @media only screen and (max-width: 824px) {
@@ -552,4 +568,58 @@ header {
   .menu {
     display: block;
   }
+
+  .navbar__list {
+    flex-direction: column;
+  }
+
+  .main {
+    background-position: center 65px;
+    background-size: 326px 328px;
+    margin-top: 14.4rem;
+    padding-top: 0;
+  }
+
+  .hero__text {
+    width: 28rem;
+    color: #1c1a26;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.16px;
+    padding-bottom: 0px;
+    margin-bottom: 14.6rem;
+  }
+
+  .hero__title {
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    letter-spacing: -4px;
+  }
+
+  .hero__button {
+    margin-left: 24rem;
+    margin-top: 15rem;
+  }
+
+  .bake-info__title {
+    width: 680px;
+    font-size: 56px;
+    letter-spacing: -2.8px;
+    margin-top: 22.8rem;
+  }
+
+  .bake-info__item-img{
+    width: 32.8rem;
+    height: 42.4rem;
+  }
+  .bake-info__item-wrapper {
+  margin-right: 0px;
+}
+}
+
+@media only screen and (max-width: 356px) {
 }
